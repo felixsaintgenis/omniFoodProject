@@ -146,3 +146,18 @@ text-align: justify;
   margin: auto;
   margin-top: 20px;
 }
+/*------------------------------------*\
+          Section gallery
+/*------------------------------------*/
+
+#gallery {
+max-width: 100%;
+}
+#gallery img {
+  height: 400px;
+  width: 100%;
+}
+#gallery img:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
