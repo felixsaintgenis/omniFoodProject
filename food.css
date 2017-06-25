@@ -1,0 +1,98 @@
+/*------------------------------------*\
+                fonts
+/*------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+
+/*------------------------------------*\
+            General settings
+/*------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------*\
+          Header & Navigation
+/*------------------------------------*/
+
+header {
+background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/hero.jpg);
+
+background-size:  cover;
+background-position: center;
+height: 900px;
+position: relative;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+}
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding-top: 50px;
+  margin-right: 3em;
+  list-style: none;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight:  300;
+  font-size: 20px;
+}
+li:hover {
+  border-bottom: solid 2px #e67e22;
+  transition: 0.1s;
+}
+.jumbotron {
+  position: absolute;
+  left: 12%;
+  top: 40%;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight: 300;
+}
+.jumbotron h1 {
+  font-weight: 300;
+  font-size: 55px;
+}
+#calltoaction1 {
+  border-radius: 30px;
+  background-color: #e67e22;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 20px;
+  padding: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 20px;
+  border: none;
+}
+#calltoaction2 {
+  border-radius: 30px;
+  background-color: transparent;
+  border: solid 1px #e67e22;
+  color: #e67e22;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 20px;
+  padding: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+#calltoaction2:hover {
+  background-color: #e67e22;
+  color: #ffffff;
+  transition: 0.5s;
+}
