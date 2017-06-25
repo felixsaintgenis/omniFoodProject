@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato';
 }
 
 /*------------------------------------*\
@@ -95,4 +96,53 @@ li:hover {
   background-color: #e67e22;
   color: #ffffff;
   transition: 0.5s;
+}
+/*------------------------------------*\
+          Section features
+/*------------------------------------*/
+
+
+#features {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.title h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+.title p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 50px;
+}
+#orangeBorder {
+  width: 6%;
+  border-bottom: solid 2px #e67e22;
+  margin: auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+#features i {
+  font-size: 70px;
+  color: #e67e22;
+text-align: justify;
+}
+.description h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
 }
