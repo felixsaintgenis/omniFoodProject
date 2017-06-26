@@ -97,6 +97,7 @@ li:hover {
   padding-right: 32px;
   margin-top: 20px;
   margin-left: 15px;
+  margin-bottom: 20px;
 }
 #calltoaction2:hover {
   background-color: #e67e22;
@@ -206,6 +207,9 @@ max-width: 100%;
           Section locations
 /*------------------------------------*/
 
+#locations {
+  margin-bottom: 100px;
+}
 #locations img {
   width: 100%;
 }
@@ -227,4 +231,112 @@ max-width: 100%;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
+}
+/*------------------------------------*\
+          Section testimony
+/*------------------------------------*/
+#testimony {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/back-customers.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  margin-top: 50px;
+
+}
+
+#testimony h1 {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+  #testimony p {
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    width: 70%;
+    text-align: justify;
+  }
+  .customerImage {
+    display: flex;
+    flex-direction: row;
+    padding-top: 18px;
+    font-size: 16px;
+    color: white;
+    align-items: center;
+  }
+  .customerImage img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 20px;
+  }
+.customerImage h3 {
+  font-weight: 300;
+  font-family: 'Lato';
+}
+.testimonyGroup {
+  width: 90%;
+  margin: auto;
+  margin-left: 8%;
+}
+
+/*------------------------------------*\
+          Section Plans
+/*------------------------------------*/
+#plans {
+  margin-bottom: 100px;
+}
+
+#plans h1 {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+}
+.row-caract {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.price {
+  background-color: #F4F4F4;
+}
+.price h3 {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+.price h2 {
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: #e67e22;
+}
+.price p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.caracteristics p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+
+}
+.button {
+    background-color: #F4F4F4;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
