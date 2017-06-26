@@ -289,7 +289,9 @@ max-width: 100%;
           Section Plans
 /*------------------------------------*/
 #plans {
-  margin-bottom: 100px;
+
+  background-color: #F4F4F4;
+  padding-bottom: 20px;
 }
 
 #plans h1 {
@@ -306,7 +308,7 @@ max-width: 100%;
   margin-bottom: 20px;
 }
 .price {
-  background-color: #F4F4F4;
+  background-color: #ffffff;
 }
 .price h3 {
   padding-top: 20px;
@@ -328,15 +330,112 @@ max-width: 100%;
   font-weight: 300;
   text-align: center;
 }
+.caracteristics {
+  background-color: #e2e2e2;
+}
 .caracteristics p {
   padding-top: 20px;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
+  padding-bottom: 30px;
 
 }
 .button {
-    background-color: #F4F4F4;
-    margin-top: 20px;
+    background-color: #e2e2e2;
     margin-bottom: 20px;
+    border-top: solid 2px #f4f4f4;
+}
+/*------------------------------------*\
+          Section Map
+/*------------------------------------*/
+#maps {
+  margin: 0;
+  padding: 0;
+}
+.flexContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#maps h1 {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  margin-right: 150px;
+}
+#orangeBorderMap {
+  width: 6%;
+  border-bottom: solid 2px #e67e22;
+  margin: auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  margin-right: 400px;
+
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.forms p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 30px;
+}
+input {
+  margin-left: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Lato';
+}
+select {
+  margin-left: 50px;
+}
+/*------------------------------------*\
+                Footer
+/*------------------------------------*/
+
+footer {
+  background-color: #333333;
+
+}
+footer p {
+  color: #f4f4f4;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Lato';
 }
